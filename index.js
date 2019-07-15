@@ -26,3 +26,6 @@ class Change {
 let test = new Change(3.75, 50);
 
 console.table(test.resMoneyArr());
+
+
+// [ 20, 20, 5, 1, 0.2, 0.05 ]

@@ -16,7 +16,7 @@ class Change {
       for (let j = firstDigit; j > 0; j--) {
         newArr.push(resMoneyArr[i]);
       }
-      rest = rest % resMoneyArr[i];
+      rest = parseFloat(rest % resMoneyArr[i]).toFixed(2)
     }
 
     return newArr;
